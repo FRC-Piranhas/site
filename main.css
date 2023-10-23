@@ -1,8 +1,139 @@
-body {
-  background-color: coral;
+/* Broad CSS */
+
+#sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-.clickable {
-  border-color: green;
-  cursor: pointer;
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main body */
+
+.body {
+    overflow-y: auto;
+}
+
+/* Background */
+
+.background {
+    background-color: white;
+}
+
+/* Main navbar */
+
+.navbar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#navtext {
+    text-decoration: none;
+    color: gray;
+}
+
+#navtext:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+#navseperator {
+    color: gray;
+}
+
+#navseperator:hover {
+    cursor: default;
+}
+
+#navimg {
+    margin-top: 15px;
+}
+
+/* Social media navbar. */
+
+#mediaimg {
+    margin-left: 93%;
+}
+
+.medianavbar {
+    margin-top: 700px;
+}
+
+.zoom {
+    transition: 0.2s;
+    width: 114px;
+    height: 64px;
+    margin: auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+/* Main text */
+
+#main-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    padding-top: 250px;
+    text-align: center;
+}
+
+#sub-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Info box */
+
+#info {
+    background-color: darkgray;
+    padding-bottom: 757px;
+}
+
+#info-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 421px;
+}
+
+/* Gift box */
+
+#gifts {
+    background-color: white;
+    padding-bottom: 757px;
+}
+
+#gift-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+/* Link box */
+
+#main-linkbox {
+    background-color: gray;
+    padding-bottom: 300px;
+}
+
+#linkbox-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#linkbox-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    padding-bottom: 10px;
 }

@@ -1,21 +1,62 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Pirhanas 3532</title>
 </head>
 
-<body>
-  <h1>Allo Thomas depuis le repo site!</h1>
-  <div class="clickable" onclick="increment();">Click me!</div>
-  <h2>
-    <div id="clicks">0</div>
-  </h2>
-</body>
+<body class="background">
+    <div id="home">
+        <nav class="navbar" id="sticky">
+            <a id="navtext" href="#home">
+                <img id="navimg" src="images/home.png" alt="Home" width="32px" height="32px">
+                <span title="Home page">Home</span>
+            </a>
+            <span id="navseperator"> │ </span>
+            <a id="navtext" href="#info">
+                <img id="navimg" src="images/info.png" alt="Info" width="32px" height="32px">
+                <span title="Info page">Info</span>
+            </a>
+            <span id="navseperator"> │ </span>
+            <a id="navtext" href="#gifts">
+                <img id="navimg" src="images/gift.png" alt="Gift" width="32px" height="32px">
+                <span title="Gifts page">Gifts</span>
+            </a>
+        </nav>
+    </div>
+    <div class="bcarousel">
 
+    </div>
+
+    <div>
+        <h1 id="main-text">Main Text</h1>
+        <h2 id="sub-text">Sub text</h2>
+    </div>
+
+    <div id="info">
+        <h1 id="info-title">data:info</h1>
+    </div>
+
+    <div id="gifts">
+        <h1 id="gift-title">data:gifts</h1>
+    </div>
+
+    <div id="main-linkbox">
+        <div id="linkbox-right">
+            <h1 id="linkbox-title">Informations</h1>
+            <a href="https://mgr-a-m-parent.ecoles.csmv.qc.ca">
+                <p id="linkbox-text">● Notre école</p>
+            </a>
+        </div>
+    </div>
+
+    <nav class="medianavbar" id="sticky">
+        <a href="https://www.instagram.com/piranhas_3532/">
+            <img class="zoom" id="mediaimg" src="images/instagram-icon.png" alt="Instagram Page">
+        </a>
+    </nav>
+</body>
 </html>
